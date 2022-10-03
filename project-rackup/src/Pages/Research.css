@@ -1,0 +1,73 @@
+.image-container-div{
+    width: 100%;
+    height: 30rem;
+   
+}
+
+.image-container-div .background-project{
+   
+    /* top: 0; 
+    left: 0; */
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    /* z-index: -100; */
+    background-size: contain;
+    overflow: hidden;
+}
+
+.upload-research{
+    
+    width: 70%;
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding: 0px;
+    color: rgb(57, 255, 192);
+    
+    background-color: /*rgba(100,162,119,1)*/rgba(36, 38, 41, 0.9);
+    box-shadow: 0px 2px 10px rgb(87, 88, 88);
+    border-radius: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items:flex-start ;
+    border-radius: 5px;
+   
+}
+/* link-css */
+.link-input{
+    margin-top: 20px;
+    background-color: rgb(148, 154, 154, 0.5);
+    height: 40px;
+    width: 100%;
+    
+     border-color: rgb(221, 211, 211);
+  
+    border-width: 2px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+.link-input::placeholder{
+    color: #bebebe;
+}
+
+.add-btn{
+    margin-top:5px ;
+    background-color: rgb(57, 255, 192);
+    color: blackS;
+    opacity: 0.7;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    background-color: rgb(57, 255, 192);
+    color: rgba(36, 38, 41, 0.9);
+    opacity: 1;
+    cursor: pointer;
+}

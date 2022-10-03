@@ -1,0 +1,66 @@
+.main-navigation__title {
+    color: #161A42;
+    /* color: rgb(27, 73, 88); */
+    
+}
+
+ .logo{
+  width:100px;
+  height: 85%;
+  margin-top: 5px;
+}
+ /* 
+img{
+  width:100px;
+  height: ;
+  align-self: center;
+}
+
+/* .menu-icon {
+  display: none;
+ 
+} */
+/* .menu-icon .menuItems {
+  display: none;
+  
+} */
+
+/* .AuthNavBar {
+  display:none;
+} */
+  
+@media screen and (max-width: 768px){
+  /* .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  } */
+
+  
+  /* .menuItems {
+    display: none;
+    position: relative;
+    z-index: 1;
+    right: 40px;
+    top: 20px;
+    
+  } */
+  /* .menu-icon .menuItems {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 40px;
+    
+  } */
+  /* .menu-icon .menuItems:target {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 40px;
+    
+  } */
+}

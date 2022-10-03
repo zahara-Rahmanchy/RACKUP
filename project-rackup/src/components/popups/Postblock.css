@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200&family=Philosopher:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Pro:wght@200&family=Dosis:wght@200&family=Khand:wght@300&family=Philosopher:ital@1&display=swap');
+
+
+.post-container{
+    width: 70%;
+    min-width: 30%;
+    height: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(236, 241, 243); */
+    background-color: rgb(196, 253, 234);
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgb(138, 139, 139);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.post-container .top-bar{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(36, 38, 41, 0.95);
+    position: relative;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.post-body{
+    padding: 10px;
+}
+
+.option{
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option:hover{
+    background-color: rgb(243, 248, 248);
+    color: black;
+}
+
+.bottom-section{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.rate-review-section{
+    color: rgba(48,56,82);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.rate-review-section:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(61, 173, 247);
+}
+
+.section-line{
+    border-top: 1px solid rgba(211, 218, 220, 0.861);
+    width: 100%;
+    background: none;
+    background-color: transparent;
+}
+
+.show-ratings{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: rgb(73, 69, 64);
+    font-size: 10px;
+    
+    
+}
+
+.h1{
+    margin: 0;
+    font-family: 'Dosis';
+    font-weight: bold;
+    /* font-family: 'Philosopher';
+    font-weight: lighter; */
+    
+}
+
+.show-review{
+    color: rgba(48,56,82);
+    font-size: 15px;
+    font-weight: 700;
+    right: -10px;
+}
+
+.show-review:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(61, 173, 247);
+}
+
+.rate-icons{
+    margin-top: 2px;
+    height: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.file-block{
+    margin: 0.3rem;
+    height: fit-content;
+    display: flex;
+    width: 300px;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    /* margin-bottom: 10px; */
+    
+    /* background-color: white; */
+    
+    background-color: rgb(221, 218, 218);
+    padding: 8px;
+    border-radius: 20px;
+    color: rgb(0, 115, 255);
+}
+
+.remove-file{
+    visibility: hidden;
+    background-color: aliceblue;
+    width: 20px;
+    height:20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightcoral;
+}
+
+.file-block:hover .remove-file{
+    visibility: visible;
+}
+
+.block-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.approved{
+    top: 0;
+    right: 0;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.del-post{
+    
+    position: absolute;
+    top: 2.2rem;
+    right: 8px;
+    background-color: rgb(213, 213, 213);
+    color: rgb(6, 147, 140);
+    border-radius: 5px;
+
+}
+
+.del-post:hover{
+    cursor: pointer;
+    background-color: rgb(68, 68, 69);
+    /* background-color: white; */
+    color: rgb(0, 224, 224);
+}
+
+.post_date{
+    font-size: 10px;
+    color:rgb(138, 139, 139)
+}
+
+.sup_name{
+    /* float: right; */
+    color: rgb(80, 96, 96);
+    font-family: Bebas;
+    
+}
+
+.creator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Philosopher';
+    font-weight: lighter;
+    
+}
+
+.top-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Philosopher';
+    font-weight: lighter;
+}
+
+.creator >h3{
+    margin: 0.4rem;
+    
+}
